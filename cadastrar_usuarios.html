@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,28 +11,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Dashboard</title>
 </head>
+
 <body>
     <header>
         <nav>
             <ul class="menu-top">
                 <li>
-                    <img class="logo" src="https://github.com/Monitor-Health/Vetores_Dash/blob/main/logo_vacsense%20SEM%20FUNDO.png?raw=true" alt="Logo">
+                    <img class="logo"
+                        src="https://github.com/Monitor-Health/Vetores_Dash/blob/main/logo_vacsense%20SEM%20FUNDO.png?raw=true"
+                        alt="Logo">
                 </li>
                 <li>
-                    <a href="#">    
-                        <img class="icon" src="https://github.com/Monitor-Health/Vetores_Dash/blob/main/icone_grafico.svg?raw=true" alt="Dashboard">
+                    <a href="#">
+                        <img class="icon"
+                            src="https://github.com/Monitor-Health/Vetores_Dash/blob/main/icone_grafico.svg?raw=true"
+                            alt="Dashboard">
                         Dashboard
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img class="icon" src="https://github.com/Monitor-Health/Vetores_Dash/blob/main/icone_analytics.svg?raw=true" alt="Analytics">
+                        <img class="icon"
+                            src="https://github.com/Monitor-Health/Vetores_Dash/blob/main/icone_analytics.svg?raw=true"
+                            alt="Analytics">
                         Analytics
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img class="icon" src="https://github.com/Monitor-Health/Vetores_Dash/blob/main/icone_usuario.svg?raw=true" alt="Usuários">
+                        <img class="icon"
+                            src="https://github.com/Monitor-Health/Vetores_Dash/blob/main/icone_usuario.svg?raw=true"
+                            alt="Usuários">
                         Usuários
                     </a>
                 </li>
@@ -39,13 +49,17 @@
             <ul class="menu-bottom">
                 <li>
                     <a href="#">
-                        <img class="icon" src="https://github.com/Monitor-Health/Vetores_Dash/blob/main/icone_config.svg?raw=true" alt="Configurações">
+                        <img class="icon"
+                            src="https://github.com/Monitor-Health/Vetores_Dash/blob/main/icone_config.svg?raw=true"
+                            alt="Configurações">
                         Configurações
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img class="icon" src="https://github.com/Monitor-Health/Vetores_Dash/blob/main/icone_sair.svg?raw=true" alt="Sair">
+                        <img class="icon"
+                            src="https://github.com/Monitor-Health/Vetores_Dash/blob/main/icone_sair.svg?raw=true"
+                            alt="Sair">
                         Sair
                     </a>
                 </li>
@@ -65,17 +79,18 @@
 
                 <div class="usuario">
                     <div class="imagem_usuario">
-                    <img src="https://cdn-icons-png.flaticon.com/512/17/17004.png"
-                        style="width: 160px; margin-left: 53px;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/17/17004.png"
+                            style="width: 160px; margin-left: 53px;">
                         <h3 style="color: #1e3a4e; margin-top: 30px; margin-left: 66px;">Foto de perfil</h3>
-                        <input type="file" style="margin-bottom: 40px;" class="input_file">
+                        <label for="arquivo">Enviar Aquivo</label>
+                        <input type="file" name="arquivo" id="arquivo">
                     </div>
                 </div>
                 <div style="margin-left: 53px; margin-top: -5px;">
                     <input class="input" style="width: 400px; font-size: 22px; height: 50px;" type="text"
                         id="input_nome" placeholder="Nome">
-                    <input class="input" style="width: 400px; font-size: 22px; height: 50px;"
-                        type="text" id="input_sobrenome" placeholder="Sobrenome">
+                    <input class="input" style="width: 400px; font-size: 22px; height: 50px;" type="text"
+                        id="input_sobrenome" placeholder="Sobrenome">
                 </div>
 
                 <div class="centro_cadastro">
@@ -101,7 +116,8 @@
                 <div style="margin-top: -15px;" class="centro_cadastro">
                     <button href="#div_1"
                         style="font-size: 22px; width: 200px; height: 50px; padding: 10px 25px; margin-top: 15px;"
-                        class="botao_cliente" onclick="cadastrar()">Cadastrar</button></div>
+                        class="botao_cliente" onclick="cadastrar()">Cadastrar</button>
+                </div>
 
             </div>
 
@@ -119,4 +135,4 @@
                 </div>
             </div>
         </div>
-        </main>
+    </main>

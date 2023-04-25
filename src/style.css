@@ -286,7 +286,26 @@ html {
         margin-bottom: 10px;
         border-radius: 40px;
         background-color: #E8E8E8;
-        margin-top: 7px;
+        margin-top: 7px; 
+    }
+    input[type="file"]{
+        display: none;
+    }
+    
+    label {
+        padding: 10px 5px;
+        width: 150px;
+        background-color: rgba(214, 214, 214, 0.404);
+        color: #757575;
+        text-transform: uppercase;
+        display: block;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 40px;
+        text-align: center;
+        cursor: pointer;
+        margin: 15px;
+
     }
 
     .centro_cadastro{
